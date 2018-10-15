@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+</head>
+<body>
+����
+<input type="text" name="name" value="�������������">
+<br><br>
+<form action="save.php" method="post">
+<label>��</label>
+<input type="radio" value="1" name="g" />
+<label>Ů</label>
+<input type="radio" value="2" name="g" />
+</form>
+<br>
+רҵ
+<input type="text" name="major">
+<br><br>
+�绰����
+<input type="text" name="tel">
+<br><br>
+��������
+<input type="text" name="email">
+<br><br>
+<form action="save.php" method="post">
+<label>�����ţ�</label>
+<select>
+<option value="1" selected="selected">�ۺϰ칫��</option>
+<option value="2">���ز߻���</option>
+<option value="3">���簲ȫ��</option>
+<option value="4">�Ӿ���Ʋ�</option>
+<option value="5">����������</option>
+<option value="6">�ۺ�ý�弯��</option>
+<option value="7">���ż���</option>
+<option value="8">��Ƶ����</option>
+</select>
+</form>
+<br>
+<input type="submit" value="�ύ" name="submit"/>
+</body>
+</html>
